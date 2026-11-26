@@ -1,0 +1,45 @@
+# Entornos virtuales y dependencias
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Pruebas
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Caché y datos generados automáticamente (no subir al repo)
+*.pkl
+data/embeddings_cache.pkl
+data/*.pkl
+
+# Base de datos de asistentes (se incluye como ejemplo inicial, pero se edita localmente)
+# data/asistentes.csv se mantiene versionado como plantilla de ejemplo
+
+# Fotos de asistentes registrados (se versionan como ejemplos iniciales si existen)
+# fotos_registrados/ se mantiene versionado
+
+# Basura de extracción del documento fuente (no es parte del proyecto)
+_docx_extract/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variables de entorno
+.env
